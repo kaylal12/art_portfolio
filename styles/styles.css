@@ -1,0 +1,78 @@
+/* ALL LINKS */
+a {
+  text-decoration: none;
+}
+
+/* SIDEBAR - constant */
+.sidebar {
+  /*background-color: pink;*/
+  width: 25%;
+  max-width: 325px;
+  height: 100%;
+  text-align: center;
+  position: fixed;
+}
+
+/* SIDEBAR LIST ITEMS */
+.sidebar li {
+  padding: 5px;
+}
+
+/* SIDEBAR INNER NAV */
+.inner-nav {
+  display: none;
+}
+
+/* LOGO */
+.logo {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+
+/* FOOTER */
+.footer {
+  position: absolute;
+  width: 100%;
+  max-width: 325px;
+  bottom: 0;
+}
+
+/* PAGE WRAPPER - holds all pages */
+.page-wrapper {
+  background-color: #FBCBC9;
+  width: 75%;
+  height: 100%;
+  float: right;
+}
+
+.center-page {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+/* HOME PAGE */
+.background-photo {
+  width: 800px;
+  height: 600px;
+  background-color: white;
+}
+
+/* ABOUT */
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+/* PORTFOLIO */
+.portfolio {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: 50px;
+}
+
+/* CONTACT */
+

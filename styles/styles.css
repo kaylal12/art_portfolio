@@ -97,6 +97,7 @@ a {
 .desc {
   background-color: white;
   width: 450px;
+  height: 500px;
   float: left;
   padding: 10px;
 }
@@ -108,6 +109,21 @@ a {
   height: 300px;
   display: inline-block;
   margin: 50px;
+}
+
+.portfolio-img {
+  border-radius: 25px;
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+}
+
+.traditional li {
+  display: inline;
+}
+
+.digital li {
+  display: inline;
 }
 
 /* CONTACT FORM - needs backend api */

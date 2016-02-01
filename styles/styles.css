@@ -11,17 +11,29 @@ a {
   height: 100%;
   text-align: center;
   position: fixed;
+  font-family: "Shadows Into Light", sans-serif;
+  font-size: 20px;
 }
 
 /* SIDEBAR LIST ITEMS */
 .sidebar li {
-  padding: 5px;
+  padding: 10px;
+}
+
+.sidebar a {
+  color: #595959;
+}
+
+.sidebar a:hover {
+  color: #FBCBC9;
 }
 
 /* SIDEBAR INNER NAV */
 .inner-nav {
   display: none;
 }
+
+/* SIDEBAR HEADER */
 
 /* LOGO */
 .logo {
@@ -30,12 +42,27 @@ a {
   padding: 10px;
 }
 
+.header h2 {
+  padding: 10px;
+  font-size: 28px;
+}
+
 /* FOOTER */
 .footer {
   position: absolute;
   width: 100%;
   max-width: 325px;
   bottom: 0;
+}
+
+.footer li {
+  display: inline;
+  margin: 5px;
+}
+
+.footer p {
+  font-size: 12px;
+  padding: 15px;
 }
 
 /* PAGE WRAPPER - holds all pages */
@@ -63,6 +90,15 @@ a {
   width: 300px;
   height: 300px;
   border-radius: 5px;
+  float: left;
+  padding: 10px;
+}
+
+.desc {
+  background-color: white;
+  width: 450px;
+  float: left;
+  padding: 10px;
 }
 
 /* PORTFOLIO */
@@ -74,5 +110,46 @@ a {
   margin: 50px;
 }
 
-/* CONTACT */
+/* CONTACT FORM - needs backend api */
+/*.contact {
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 600px;
+  margin: 5px auto;
+  padding: 15px;
+  background: #F7F7F7;
+}
 
+.contact h2 {
+  background: #709CC1;
+  padding: 20px 0;
+  font-size: 140%;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  margin: -16px -16px 16px -16px;
+}
+
+.contact input {
+  box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  font: 95% Arial, Helvetica, sans-serif;
+}
+
+#send {
+  width: 100%;
+  padding: 3%;
+  background: #709CC1;
+  border-bottom: 2px solid #4C6C9D;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: #fff;
+}
+
+#send:hover {
+  background: #99CED4;
+}*/

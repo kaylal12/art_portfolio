@@ -8,6 +8,13 @@ body {
   height: 100%;
 }
 
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(251, 203, 201, 0.6);
+}
+
 .clear-left {
   clear: left;
 }
@@ -18,7 +25,7 @@ body {
 
 /* SIDEBAR - constant */
 .sidebar {
-  /*background-color: pink;*/
+  background-color: white;
   width: 25%;
   max-width: 325px;
   height: 100%;
@@ -74,9 +81,8 @@ body {
 
 /* PAGE WRAPPER - holds all pages */
 .page-wrapper {
-  background-color: rgba(251, 203, 201, 0.6);
   width: 75%;
-  height: 750px;
+  height: 100%;
   float: right;
 }
 

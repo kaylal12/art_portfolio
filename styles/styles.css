@@ -3,6 +3,14 @@ a {
   text-decoration: none;
 }
 
+.clear-left {
+  clear: left;
+}
+
+.float-left {
+  float: left;
+}
+
 /* SIDEBAR - constant */
 .sidebar {
   /*background-color: pink;*/
@@ -12,7 +20,7 @@ a {
   text-align: center;
   position: fixed;
   font-family: "Shadows Into Light", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* SIDEBAR LIST ITEMS */
@@ -26,11 +34,6 @@ a {
 
 .sidebar a:hover {
   color: #FBCBC9;
-}
-
-/* SIDEBAR INNER NAV */
-.inner-nav {
-  display: none;
 }
 
 /* SIDEBAR HEADER */
@@ -66,63 +69,109 @@ a {
 
 /* PAGE WRAPPER - holds all pages */
 .page-wrapper {
-  background-color: #FBCBC9;
+  background-color: rgba(251, 203, 201, 0.6);
   width: 75%;
   height: 100%;
   float: right;
 }
 
 .center-page {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 60px;
+  text-align: center;
 }
 
 /* HOME PAGE */
 .background-photo {
   width: 800px;
-  height: 600px;
+  height: 650px;
   background-color: white;
+  /*display: none;*/
 }
 
 /* ABOUT */
+#about {
+  /*display: none;*/
+}
+
 .profile-pic {
   width: 300px;
   height: 300px;
   border-radius: 5px;
-  float: left;
-  padding: 10px;
+  margin-left: 30px;
 }
 
 .desc {
-  background-color: white;
-  width: 450px;
-  height: 500px;
-  float: left;
+  width: 400px;
+  height: 700px;
   padding: 10px;
+  margin-left: 25px;
+  font-size: 18px;
+  font-family: "Indie Flower", sans-serif;
+}
+
+.desc h2 {
+  font-size: 36px;
+  font-family: "Shadows Into Light", sans-serif;
 }
 
 /* PORTFOLIO */
-.portfolio {
-  background-color: white;
-  width: 300px;
-  height: 300px;
-  display: inline-block;
-  margin: 50px;
+/*#traditional {
+  display: none;
+}
+
+#digital {
+  display: none;
+}*/
+
+.page-title {
+  font-family: "Shadows Into Light", sans-serif;
+  font-size: 30px;
 }
 
 .portfolio-img {
   border-radius: 25px;
   width: 300px;
   height: 300px;
-  padding: 15px;
 }
 
-.traditional li {
-  display: inline;
+.photos {
+  text-align: center;
 }
 
-.digital li {
-  display: inline;
+.photos li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.slideshow {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin-left: -15px;
+}
+
+.slideshow > li {
+    position: absolute;
+}
+
+.photo .caption {
+  position: relative;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  font-family: "Shadows Into Light", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  bottom: 39px;
+  opacity: 0;
+}
+
+.photo:hover .caption {
+  opacity: 1;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 /* CONTACT FORM - needs backend api */

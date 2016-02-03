@@ -16,13 +16,13 @@
   <div class="page-wrapper">
 
     <!-- LANDING PAGE -->
-    <div id="home" class="center-page">
+    <div id="home-page" class="center-page">
       <div class="background-photo">
       </div>
     </div>
 
     <!-- ABOUT -->
-    <div id="about" class="center-page">
+    <div id="about-page" class="center-page">
       <img class="float-left profile-pic" src="styles/imgs/me2015.jpg">
       <div class="float-left desc">
         <h2>ABOUT ME</h2>
@@ -42,7 +42,7 @@
     </div>
 
     <!-- TRADITIONAL ART -->
-    <div id="traditional" class="clear-left center-page">
+    <div id="traditional-page" class="clear-left center-page">
       <h2 class="page-title">TRADITIONAL</h2>
       <ul class="photos">
         <li>
@@ -84,7 +84,7 @@
 
 
         <!-- SLIDESHOW PHOTOS -->
-        <div class="slideshow">
+        <div id="slideshow">
           <li>
             <div class="photo">
               <img class="portfolio-img" src="styles/imgs/pear.jpg">
@@ -137,7 +137,7 @@
     </div>
 
     <!-- DIGITAL ART -->
-    <div id="digital" class="digital-portfolio center-page">
+    <div id="digital-page" class="digital-portfolio center-page">
       <h2 class="page-title">DIGITAL</h2>
       <ul class="photos">
         <li>
@@ -211,10 +211,10 @@
     <!-- NAV -->
     <div class="nav-wrapper">
       <ul class="nav">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#traditional">Traditional</a></li>
-        <li><a href="#digital">Digital</a></li>
+        <li><a id="home" href="#">Home</a></li>
+        <li><a id="about" href="#">About</a></li>
+        <li><a id="traditional" href="#">Traditional</a></li>
+        <li><a id="digital" href="#">Digital</a></li>
         </li>
         <!-- <li>Shop</li> -->
         <!-- <li><a href="#">Contact</a></li> -->
@@ -247,6 +247,9 @@
 
   <!-- SIDEBAR END -->
   </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/application.js"></script>
 
 </body>
 

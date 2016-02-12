@@ -92,6 +92,11 @@ body {
   text-align: center;
 }
 
+.fill-page {
+  margin: 0 auto;
+  text-align: center;
+}
+
 /* HOME PAGE */
 .background-photo {
   width: 800px;
